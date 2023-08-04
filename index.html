@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pass Me the Message</title>  
+    <title>To Do List</title>  
 </head>
 <body>
-<div class="container">
- <h4>A Message You Would Like to Pass</h4>
- <form id="message-form">
-    <input type="text" name="" id="message" class="box">
-    <input type="submit" name="" id="submitBtn" class="button" >
- </form>
- <h5 class="feedback">Please enter a value to pass</h5>
 
-</div>
+ <div class="container">
+    <div class="todo-app">
+        <h2>To-Do List <img src="Image/icon.png" alt="handsome"></h2>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add Your Text">
+            <button onClick="addTask()">Add</button>
+        </div>
+        <ul id="'list-container">
+            <!-- <li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+        </ul>
+    </div>
+ </div>
+
+
 
     <script src="app.js"></script>
 </body>
